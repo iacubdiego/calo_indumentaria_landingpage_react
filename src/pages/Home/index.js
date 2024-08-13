@@ -6,7 +6,7 @@ import WhatsAppIcon from '../../components/WhatsAppIcon';
 export default function Home() {
     return (
     <>
-    <div className="relative flex flex-col items-center">
+    <div className="relative bg-blue-900 flex flex-col items-center">
       <div className="relative z-10">
       <Banner />
       </div>
