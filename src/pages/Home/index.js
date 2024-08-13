@@ -6,11 +6,11 @@ import WhatsAppIcon from '../../components/WhatsAppIcon';
 export default function Home() {
     return (
     <>
-    <div className="relative bg-blue-900 flex flex-col items-center">
+    <div className="relative bg-blue-900 w-screen flex flex-col items-center">
       <div className="relative z-10">
       <Banner />
       </div>
-      <div className="relative -top-16 z-20">
+      <div className="relative -top-16 z-10">
       <Title />
       </div>
       <Pricing />
