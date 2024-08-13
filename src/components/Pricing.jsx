@@ -5,9 +5,9 @@ import seguridad from "../images/botin.png";
 
 export default function Pricing() {
   return (
-    <div className="flex flex-wrap mx-auto h-[400px] my-8 justify-center gap-6">
+    <div className="flex flex-wrap mx-auto  my-8 justify-center gap-6">
       {/*<!-- Component: Basic Pricing Table --> */}
-      <div className="relative w-[300px] overflow-hidden bg-white rounded shadow-lg lg:max-md-full text-slate-500 shadow-slate-200 group transform transition duration-300 hover:scale-110">
+      <div className="relative w-[300px] h-[400px] overflow-hidden bg-white rounded shadow-lg lg:max-md-full text-slate-500 shadow-slate-200 group transform transition duration-300 hover:scale-100">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${indumentaria})` }}
@@ -25,7 +25,7 @@ export default function Pricing() {
       </div>
       {/*<!-- End Basic Pricing Table --> */}
       {/*<!-- Component: Basic Pricing Table --> */}
-      <div className="relative w-[300px] overflow-hidden bg-white rounded shadow-lg lg:max-md-full text-slate-500 shadow-slate-200 group transform transition duration-300 hover:scale-100">
+      <div className="relative w-[300px] h-[400px] overflow-hidden bg-white rounded shadow-lg lg:max-md-full text-slate-500 shadow-slate-200 group transform transition duration-300 hover:scale-100">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${calzado})` }}
@@ -43,7 +43,7 @@ export default function Pricing() {
       </div>
       {/*<!-- End Basic Pricing Table --> */}
       {/*<!-- Component: Basic Pricing Table --> */}
-      <div className="relative min-w-[200px] max-w-[300px] overflow-hidden bg-white rounded shadow-lg lg:max-md-full text-slate-500 shadow-slate-200 group transform transition duration-300 hover:scale-100">
+      <div className="relative w-[300px] h-[400px] overflow-hidden bg-white rounded shadow-lg lg:max-md-full text-slate-500 shadow-slate-200 group transform transition duration-300 hover:scale-100">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${seguridad})` }}
