@@ -4,7 +4,7 @@ export default function Title() {
   return (
     <>
       {/*      <!-- Component: Elevated centered simple base sized testimonial --> */}
-      <div className="max-w-xl overflow-hidden text-center bg-white bg-opacity-75 backdrop-blur-sm rounded-lg shadow-2xl text-slate-500 shadow-slate-200">
+      <div className="max-w-2xl overflow-hidden text-center bg-white bg-opacity-75 backdrop-blur-sm rounded-lg shadow-2xl text-slate-500 shadow-slate-200">
         <div className="relative p-6 bg-white">
           <figure className="relative z-10">
             <blockquote className="p-6 text-xl leading-relaxed">
