@@ -16,16 +16,16 @@ const Footer = () => {
           <a href="#inicio" className="hover:text-gray-400">Inicio</a>
         </li>
         <li className="mb-1">
-          <a href="#productos" className="hover:text-gray-400">Productos</a>
+          <a href="/Calzado" className="hover:text-gray-400">Calzado</a>
         </li>
         <li className="mb-1">
-          <a href="#servicio-tecnico" className="hover:text-gray-400">Servicio Tecnico</a>
+          <a href="/Indumentaria" className="hover:text-gray-400">Indumentaria</a>
         </li>
         <li className="mb-1">
-          <a href="#consultoria" className="hover:text-gray-400">Consultoria</a>
+          <a href="/Seguridad" className="hover:text-gray-400">Seguridad</a>
         </li>
         <li className="mb-1">
-          <a href="#sobre-nosotros" className="hover:text-gray-400">Sobre nosotros</a>
+          <a href="/Conocenos" className="hover:text-gray-400">Sobre nosotros</a>
         </li>
       </ul>
     </div>
@@ -33,7 +33,7 @@ const Footer = () => {
       <h2 className="text-lg font-bold mb-4">CONTACTO:</h2>
       <ul className="list-none">
         <li className="mb-1">
-          <a href="#inicio" className="hover:text-gray-400">Av. Cramer 1765 Piso 7 "A"</a>
+          <a href="#inicio" className="hover:text-gray-400">Lisandro Delatorre 20 cp 1408</a>
         </li>
         <li className="mb-1">
           <a href="#inicio" className="hover:text-gray-400">C.A.B.A - Argentina</a>

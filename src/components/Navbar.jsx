@@ -67,7 +67,7 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-1 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="text-base flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Indumentaria"
                   >
                     <span>Indumentaria</span>
@@ -80,7 +80,7 @@ export default function Navbar() {
                     role="menuitem"
                     aria-current="page"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-2 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="text-base flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Calzado"
                   >
                     <span>Calzado</span>
@@ -92,7 +92,7 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="font-montserrat text-base flex items-center gap-1 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="font-montserrat text-base flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Seguridad"
                   >
                     <span>Elementos de Seguridad</span>
@@ -104,7 +104,7 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-1 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="text-base flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Conocenos"
                   >
                     <span>Conocenos</span>
