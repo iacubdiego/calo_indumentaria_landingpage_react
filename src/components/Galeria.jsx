@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // import botas from "../images/ropa/20170512_115346.jpg";
 import camisa from "../images/ropa/Camisa Beige.jpg";
@@ -70,48 +70,10 @@ const products = [
 ];
 
 const Galeria = () => {
-  const [selectedBrand, setSelectedBrand] = useState("");
-  const [searchTerm, setSearchTerm] = useState("");
-
-  const handleBrandFilter = (brand) => {
-    setSelectedBrand(brand);
-  };
-
-  const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
-  };
-
-  const filteredProducts = products.filter((product) => {
-    return (
-      (selectedBrand === "" || product.brand === selectedBrand) &&
-      (searchTerm === "" ||
-        product.title.toLowerCase().includes(searchTerm.toLowerCase()))
-    );
-  });
-
   return (
     <div className="container mx-auto">
-      <div className="p-4 flex justify-content items-center mb-4">
-        <select
-          onChange={(e) => handleBrandFilter(e.target.value)}
-          value={selectedBrand}
-          className="border border-gray-300 rounded-md px-4 py-2 mr-2 focus:outline-none focus:border-blue-500"
-        >
-          <option value="">Todos</option>
-          <option value="Ideal">Ideal</option>
-          <option value="Keysight">Keysight</option>
-        </select>
-        <input
-          type="text"
-          placeholder="Buscar producto"
-          value={searchTerm}
-          onChange={handleSearch}
-          className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
-        />
-      </div>
-
-      <div className="flex flex-wrap gap-2 justify-center p-4 pb-0">
-  {filteredProducts.map((product) => (
+   <div className="flex flex-wrap gap-2 justify-center p-4 pb-0">
+  {products.map((product) => (
     <div
       key={product.id}
       className="border border-gray-300 rounded-md p-2 shadow-md w-[200px] flex flex-col justify-between"
@@ -148,7 +110,8 @@ const Galeria = () => {
       </div>
     </div>
   ))}
-</div>    </div>
+</div> 
+    </div>
   );
 };
 

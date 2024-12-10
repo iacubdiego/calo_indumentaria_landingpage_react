@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 import { Link } from "wouter";
 import logo from '../images/logos/Calo - Logos.png';
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"></link>
+
 
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
@@ -40,15 +40,15 @@ export default function Navbar() {
               <div className="absolute left-1/2 top-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform">
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300"
+                  className="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-white transition-all duration-300"
                 ></span>
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-6 transform rounded-full bg-slate-900 transition duration-300"
+                  className="absolute block h-0.5 w-6 transform rounded-full bg-white transition duration-300"
                 ></span>
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300"
+                  className="absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full bg-white transition-all duration-300"
                 ></span>
               </div>
             </button>
@@ -67,7 +67,7 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="text-base flex items-center gap-1 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Indumentaria"
                   >
                     <span>Indumentaria</span>
@@ -80,7 +80,7 @@ export default function Navbar() {
                     role="menuitem"
                     aria-current="page"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-2 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="text-base flex items-center gap-2 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Calzado"
                   >
                     <span>Calzado</span>
@@ -92,7 +92,7 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="font-montserrat text-base flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="font-montserrat text-base flex items-center gap-1 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Seguridad"
                   >
                     <span>Elementos de Seguridad</span>
@@ -104,7 +104,7 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    className="text-base flex items-center gap-1 py-4 transition-colors  duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
                     href="/Conocenos"
                   >
                     <span>Conocenos</span>
