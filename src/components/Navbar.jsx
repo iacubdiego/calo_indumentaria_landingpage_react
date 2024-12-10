@@ -2,6 +2,7 @@ import React, { useState } from "react"
 
 import { Link } from "wouter";
 import logo from '../images/logos/Calo - Logos.png';
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"></link>
 
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
@@ -19,7 +20,7 @@ export default function Navbar() {
             {/*      <!-- Brand logo --> */}
             <div className="flex items-center">
               <Link href="/" className="flex items-center">
-                <img className="h-14 mr-2 mb-2 mt-4" src={logo} alt="Logo" />
+                <img className="h-14 mr-2 mb-2 mt-4" src={logo} alt="Logo"/>
               </Link>
             </div>
 
@@ -62,39 +63,51 @@ export default function Navbar() {
               }`}
             >
               <li role="none" className="flex items-stretch">
-                <Link href="/botas">
+                <Link href="/Indumentaria">
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-xl flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
-                    href="#serviciotecnico"
+                    className="text-base flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    href="/Indumentaria"
                   >
                     <span>Indumentaria</span>
                   </a>
                 </Link>
               </li>
               <li role="none" className="flex items-stretch">
-              <Link href="/camisa">
+              <Link href="/Calzado">
                   <a
                     role="menuitem"
                     aria-current="page"
                     aria-haspopup="false"
-                    className="text-xl flex items-center gap-2 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
-                    href="#consultoria"
+                    className="text-base flex items-center gap-2 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    href="/Calzado"
                   >
                     <span>Calzado</span>
                   </a>
                 </Link>
               </li>
               <li role="none" className="flex items-stretch">
-              <Link href="/pantalones">
+              <Link href="/Seguridad">
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-xl flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
-                    href="#productos"
+                    className="font-montserrat text-base flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    href="/Seguridad"
                   >
                     <span>Elementos de Seguridad</span>
+                  </a>
+                </Link>
+              </li>
+              <li role="none" className="flex items-stretch">
+              <Link href="/Conocenos">
+                  <a
+                    role="menuitem"
+                    aria-haspopup="false"
+                    className="text-base flex items-center gap-1 py-4 transition-colors text-white duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
+                    href="/Conocenos"
+                  >
+                    <span>Conocenos</span>
                   </a>
                 </Link>
               </li>

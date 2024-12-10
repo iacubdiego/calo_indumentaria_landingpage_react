@@ -3,7 +3,7 @@ import { Router, Route } from "wouter";
 
 import Home from "./pages/Home";
 import Error from "./pages/Error";
-import Nosotros from './pages/Nosotros';
+import Conocenos from './pages/Conocenos';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Route path="/" component={Home} />
         <Route path="/Seguridad" component={Seguridad} />
-        <Route path="/nosotros" component={Nosotros} />
+        <Route path="/Conocenos" component={Conocenos} />
         <Route path="/Calzado" component={Calzado} />
         <Route path="/Indumentaria" component={Indumentaria} />
         <Route path="/*" component={Error} />
