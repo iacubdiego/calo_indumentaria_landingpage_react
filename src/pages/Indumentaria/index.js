@@ -1,7 +1,7 @@
 import React from 'react';
 import camisa from "../../images/ropa/Camisa Beige.jpg";
 
-export default function Camisas() {
+export default function Indumentaria() {
   return (
     <>
    <div className="container mx-auto ">

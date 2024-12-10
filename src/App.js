@@ -7,9 +7,10 @@ import Nosotros from './pages/Nosotros';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Botas from './pages/Botas';
-import Pantalones from './pages/Pantalones';
-import Camisas from './pages/Camisas';
+import Calzado from './pages/Calzado';
+import Seguridad from './pages/Seguridad';
+import Idumentaria from './pages/Idumentaria';
+import Indumentaria from './pages/Indumentaria';
 
 function App() {
   return (
@@ -18,10 +19,10 @@ function App() {
       <Navbar />
       <Router>
         <Route path="/" component={Home} />
-        <Route path="/pantalones" component={Pantalones} />
+        <Route path="/Seguridad" component={Seguridad} />
         <Route path="/nosotros" component={Nosotros} />
-        <Route path="/botas" component={Botas} />
-        <Route path="/camisas" component={Camisas} />
+        <Route path="/Calzado" component={Calzado} />
+        <Route path="/Indumentaria" component={Indumentaria} />
         <Route path="/*" component={Error} />
       </Router>
 
