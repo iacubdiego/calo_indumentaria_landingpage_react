@@ -9,7 +9,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Calzado from './pages/Calzado';
 import Seguridad from './pages/Seguridad';
-import Idumentaria from './pages/Idumentaria';
 import Indumentaria from './pages/Indumentaria';
 
 function App() {
