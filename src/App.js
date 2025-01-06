@@ -18,10 +18,10 @@ function App() {
       <Navbar />
       <Router>
         <Route path="/" component={Home} />
-        <Route path="/Seguridad" component={Seguridad} />
         <Route path="/Conocenos" component={Conocenos} />
-        <Route path="/Calzado" component={Calzado} />
+        <Route path="/Seguridad" component={Seguridad} />
         <Route path="/Indumentaria" component={Indumentaria} />
+        <Route path="/Calzado" component={Calzado} />
         <Route path="/*" component={Error} />
       </Router>
 
