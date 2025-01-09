@@ -1,7 +1,7 @@
 import React from "react";
-import indumentaria from "../images/botin.png";
-import calzado from "../images/Elementosdeseguridad.jpg";
-import seguridad from "../images/botin.png";
+import indumentaria from "../images/camisascolores.jpg";
+import seguridad from "../images/Elementosdeseguridad.jpg";
+import calzado from "../images/botin.png";
 import { Link } from "wouter";
 
 export default function Pricing() {
@@ -70,3 +70,4 @@ export default function Pricing() {
     </div>
   );
 }
+
