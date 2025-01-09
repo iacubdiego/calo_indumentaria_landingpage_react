@@ -16,11 +16,13 @@ export default function Navbar() {
             aria-label="main navigation"
             className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
             role="navigation"
+            onMouseEnter={() => setIsToggleOpen(true)} // Mantener el menú abierto al pasar el mouse
+            onMouseLeave={() => setIsToggleOpen(false)} // Cerrar el menú al salir el mouse
           >
             {/*      <!-- Brand logo --> */}
             <div className="flex items-center">
               <Link href="/" className="flex items-center">
-                <img className="h-14 mr-2 mb-2 mt-4" src={logo} alt="Logo"/>
+                <img className="h-14 mr-2 mb-2 mt-4 cursor-pointer" src={logo} alt="Logo"/>
               </Link>
             </div>
 
@@ -40,15 +42,15 @@ export default function Navbar() {
               <div className="absolute left-1/2 top-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform">
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-white transition-all duration-300"
+                  className={`absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full transition-all duration-300 ${isToggleOpen ? "bg-black" : "bg-white"}`}
                 ></span>
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-6 transform rounded-full bg-white transition duration-300"
+                  className={`absolute block h-0.5 w-6 transform rounded-full transition duration-300 ${isToggleOpen ? "bg-black" : "bg-white"}`}
                 ></span>
                 <span
                   aria-hidden="true"
-                  className="absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full bg-white transition-all duration-300"
+                  className={`absolute block h-0.5 w-1/2 origin-top-left translate-y-2 transform rounded-full transition-all duration-300 ${isToggleOpen ? "bg-black" : "bg-white"}`}
                 ></span>
               </div>
             </button>
@@ -56,7 +58,7 @@ export default function Navbar() {
             <ul
               role="menubar"
               aria-label="Select page"
-              className={`text-white absolute left-0 top-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 md:visible md:relative md:top-0  md:z-0 md:flex md:h-full md:w-auto md:items-stretch md:overflow-visible md:bg-white/0 md:px-0 md:py-0  md:pt-0 md:opacity-100 ${
+              className={`ml-8 text-white absolute left-0 top-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 md:visible md:relative md:top-0  md:z-0 md:flex md:h-full md:w-auto md:items-stretch md:overflow-visible md:bg-white/0 md:px-0 md:py-0  md:pt-0 md:opacity-100 ${
                 isToggleOpen
                   ? "visible opacity-100 backdrop-blur-sm"
                   : "invisible opacity-0"
@@ -67,9 +69,10 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
-                    href="/Indumentaria"
-                  >
+                    className={`text-xl flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6 ${
+                        isToggleOpen ? "text-black" : "text-white"
+                      }`}
+                    >
                     <span>Indumentaria</span>
                   </a>
                 </Link>
@@ -80,8 +83,9 @@ export default function Navbar() {
                     role="menuitem"
                     aria-current="page"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
-                    href="/Calzado"
+                    className={`text-xl flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6 ${
+                      isToggleOpen ? "text-black" : "text-white"
+                    }`}
                   >
                     <span>Calzado</span>
                   </a>
@@ -92,8 +96,9 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="font-montserrat text-base flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
-                    href="/Seguridad"
+                    className={`text-xl flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6 ${
+                      isToggleOpen ? "text-black" : "text-white"
+                    }`}
                   >
                     <span>Elementos de Seguridad</span>
                   </a>
@@ -104,8 +109,9 @@ export default function Navbar() {
                   <a
                     role="menuitem"
                     aria-haspopup="false"
-                    className="text-base flex items-center gap-1 py-4 transition-colors duration-300 hover:text-gray-300 focus:text-gray-300 focus:outline-none focus-visible:outline-none md:px-6"
-                    href="/Conocenos"
+                    className={`bg-gradient-to-r from-orange-400 to-orange-600 text-white text-xl flex items-center gap-1 my-6 py-4 px-6 rounded-md transition-colors duration-300 hover:from-orange-500 hover:to-orange-700 focus:outline-none ${
+                      isToggleOpen ? "text-black" : "text-white"
+                    }`}
                   >
                     <span>Conocenos</span>
                   </a>
@@ -119,3 +125,4 @@ export default function Navbar() {
     </>
   )
 }
+
