@@ -24,13 +24,13 @@ export default function Indumentaria() {
       
       <div className="col-span-4 lg:col-span-5 p-4">
         <img
-          className="object-cover h-60 w-full"
+          className="object-cover h-60 w-full rounded-lg"
           src={camisabeige}
           alt="Imagen"
         />
       </div>
     
-      <div className="col-span-4 lg:col-span-12 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+      <div className="col-span-4 max-w-5xl md:col-span-12 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="mx-auto h-96 w-full md:rounded-l-lg"
           src={camisacolores}
