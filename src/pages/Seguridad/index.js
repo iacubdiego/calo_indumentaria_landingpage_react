@@ -17,13 +17,6 @@ export default function Seguridad() {
   return (
   <>
 <div className="container mx-auto">
-      <div className="container px-6 m-auto">
-          <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
-            <div className="col-span-4 md:col-span-8 lg:col-span-12">
-              Column 1/1
-            </div>
-          </div>
-        </div>
   <h2 className="col-span-4 md:col-span-8 lg:col-span-12 text-4xl font-bold mb-4">ELEMENTOS DE SEGURIDAD</h2>
 
   <div className="relative p-4 grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
@@ -52,22 +45,21 @@ export default function Seguridad() {
     />
   </div>
         
-  <div className="w-3/4 mx-14 mt-4 max-w-screen-xl col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+  <div className="col-span-4 md:col-span-8 lg:col-span-12 p-4 m-4">
         <h2 className="text-4xl font-bold mb-4">Protectores Auditivos</h2>
         <p className="mb-4">
         Diferentes Modelos.
         </p>
       </div>  
           
-      <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
           src={audifono1}
           alt="Imagen"
         />
       </div>
-
-      <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
           src={audifono2}
@@ -75,30 +67,28 @@ export default function Seguridad() {
         />
       </div>
 
-      <div className="w-3/4 mx-14 mt-4 max-w-screen-xl col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+  <div className="col-span-4 md:col-span-8 lg:col-span-12 p-4 m-4">
         <h2 className="text-4xl font-bold mb-4">Lentes</h2>
         <p className="mb-4">
         Anteojos transparentes o gris antirayaduras diferentes modelos.
         </p>
       </div>  
           
-      <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
           src={lentes1}
           alt="Imagen"
         />
       </div>
-
-      <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
           src={lentes2}
           alt="Imagen"
         />
       </div>
-
-      <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
           src={lentes3}
@@ -106,14 +96,14 @@ export default function Seguridad() {
         />
       </div>            
 
-      <div className="w-3/4 mx-14 mt-4 max-w-screen-xl col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+  <div className="col-span-4 md:col-span-8 lg:col-span-12 p-4 m-4">
         <h2 className="text-4xl font-bold mb-4">Fajas</h2>
         <p className="mb-4">
         Lumbar Reforzada.
         </p>
       </div>  
           
-      <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+      <div className="col-span-4 md:col-span-8 lg:col-span-12 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
           src={faja1}
