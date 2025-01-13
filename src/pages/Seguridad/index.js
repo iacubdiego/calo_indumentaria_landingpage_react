@@ -1,7 +1,7 @@
 import React from 'react';
 import WhatsAppIcon from '../../components/WhatsAppIcon';
 
-import guentes1 from "../../images/Guantes.jpg";
+import guantes1 from "../../images/Guantes.jpg";
 import guantes2 from "../../images/Guantes2.jpg";
 
 import audifono1 from "../../images/Audifonos.jpg";
