@@ -33,7 +33,7 @@ const Footer = () => {
       <h2 className="text-lg font-bold mb-4">CONTACTO:</h2>
       <ul className="list-none">
         <li className="mb-1">
-          <a href="#inicio" className="hover:text-gray-400">Lisandro Delatorre 20 cp 1408</a>
+          <a href="#inicio" className="hover:text-gray-400">Liniers</a>
         </li>
         <li className="mb-1">
           <a href="#inicio" className="hover:text-gray-400">C.A.B.A - Argentina</a>
