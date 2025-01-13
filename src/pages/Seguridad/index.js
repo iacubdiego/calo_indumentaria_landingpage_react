@@ -20,9 +20,7 @@ export default function Seguridad() {
     
     <div className="relative p-4 grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
 
-    <div className="w-3/4 mx-14 mt-4 max-w-screen-xl p-4">
-        <h2 className="text-4xl font-bold mb-4">ELEMENTOS DE SEGURIDAD</h2>
-      </div>  
+      <h2 className="text-4xl font-bold mb-4">ELEMENTOS DE SEGURIDAD</h2>
     
       <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
         <h2 className="text-4xl font-bold mb-4">Guantes</h2>
