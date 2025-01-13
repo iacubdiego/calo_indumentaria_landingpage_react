@@ -16,11 +16,14 @@ export default function Indumentaria() {
     <>
    <div className="container mx-auto ">
     <div className="relative p-4 grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
-  
+    
     <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
-        <h2 className="text-4xl font-bold mb-4">Indumentaria</h2>
+        <h2 className="text-4xl font-bold mb-4">INDUMENTARIA</h2>
+      </div> 
+    
+    <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+        <h2 className="text-4xl font-bold mb-4">CAMISA DE GABARDINA</h2>
         <p className="mb-4">
-        CAMISA DE GABARDINA.
         Camisas gabaridna rigida de 6 oz con mangas reforzadas 2 bolsillos delanteros. reforzadas en las zonas de mayor exigencia.
         </p>
       </div>  
@@ -58,9 +61,8 @@ export default function Indumentaria() {
       </div>
             
     <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
-        <h2 className="text-4xl font-bold mb-4">Indumentaria</h2>
+        <h2 className="text-4xl font-bold mb-4">PANTALON DE GABARDINA</h2>
         <p className="mb-4">
-        PANTALON DE GABARDINA.
         Pantalon de gabardina 8 oz con boton y cierre, triple constura, 2 bolsillos laterales con forreria de primera calidad y un bolsillo ojal resistente.
         </p>
       </div>  
