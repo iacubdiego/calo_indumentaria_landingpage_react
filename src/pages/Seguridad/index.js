@@ -1,10 +1,17 @@
 import React from 'react';
 import WhatsAppIcon from '../../components/WhatsAppIcon';
 
-import pantaloncolores from "../../images/pantalon 3 colores.jpg";
-import pantalonbeige from "../../images/pantalon beige.jpg";
-import pantalonazulino from "../../images/pantalon clasico azulino.jpg";
-import pantalonmarino from "../../images/pantalon clasico marino frente.jpg";
+import guentes1 from "../../images/Guantes.jpg";
+import guantes2 from "../../images/Guantes2.jpg";
+
+import audifono1 from "../../images/Audifonos.jpg";
+import audifono2 from "../../images/Tapones.jpg";
+
+import lentes1 from "../../images/Lentes1.jpg";
+import lentes2 from "../../images/Lentes2.jpg";
+import lentes3 from "../../images/Lentes3.jpg";
+
+import faja1 from "../../images/Faja.jpg";
 
 export default function Seguridad() {
   return (
@@ -17,34 +24,18 @@ export default function Seguridad() {
         <h2 className="text-4xl font-bold mb-4">ELEMENTOS DE SEGURIDAD</h2>
       </div>  
     
-    <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+      <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
         <h2 className="text-4xl font-bold mb-4">Guantes</h2>
         <p className="mb-4">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.      Lorem ipsum dolor sit amet consectetur, adipisicing elit.      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Guantes de seguridad en descarne con refuerzo palmar.
+        Guantes de seguridad multiflex nylon Pu negros.
         </p>
       </div>  
-      
-      
-      <div className="col-span-4 lg:col-span-5 p-4">
-        <img
-          className="object-cover h-60 w-full rounded-lg"
-          src={pantalonazulino}
-          alt="Imagen"
-        />
-      </div>
-    
-      <div className="col-span-4 max-w-5xl md:col-span-12 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">        <img
-          className="mx-auto h-96 w-full md:rounded-l-lg"
-          src={pantaloncolores}
-          alt="Imagen"
-        />
-      </div>
-
+          
       <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
-          src={pantalonbeige}
+          src={guantes1}
           alt="Imagen"
         />
       </div>
@@ -52,11 +43,81 @@ export default function Seguridad() {
       <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
           className="object-cover h-60 w-full md:rounded-l-lg"
-          src={pantalonmarino}
+          src={guantes2}
           alt="Imagen"
         />
       </div>
 
+      <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+        <h2 className="text-4xl font-bold mb-4">Protectores Auditivos</h2>
+        <p className="mb-4">
+        Diferentes Modelos.
+        </p>
+      </div>  
+          
+      <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+        <img
+          className="object-cover h-60 w-full md:rounded-l-lg"
+          src={audifono1}
+          alt="Imagen"
+        />
+      </div>
+
+      <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+        <img
+          className="object-cover h-60 w-full md:rounded-l-lg"
+          src={audifono2}
+          alt="Imagen"
+        />
+      </div>
+
+      <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+        <h2 className="text-4xl font-bold mb-4">Lentes</h2>
+        <p className="mb-4">
+        Anteojos transparentes o gris antirayaduras diferentes modelos.
+        </p>
+      </div>  
+          
+      <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+        <img
+          className="object-cover h-60 w-full md:rounded-l-lg"
+          src={lentes1}
+          alt="Imagen"
+        />
+      </div>
+
+      <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+        <img
+          className="object-cover h-60 w-full md:rounded-l-lg"
+          src={lentes2}
+          alt="Imagen"
+        />
+      </div>
+
+      <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+        <img
+          className="object-cover h-60 w-full md:rounded-l-lg"
+          src={lentes3}
+          alt="Imagen"
+        />
+      </div>            
+
+      <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+        <h2 className="text-4xl font-bold mb-4">Fajas</h2>
+        <p className="mb-4">
+        Lumbar Reforzada.
+        </p>
+      </div>  
+          
+      <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+        <img
+          className="object-cover h-60 w-full md:rounded-l-lg"
+          src={faja1}
+          alt="Imagen"
+        />
+      </div>
+
+            
     </div>
   </div>  
   {/* Agregar Numero de Telefono */}
