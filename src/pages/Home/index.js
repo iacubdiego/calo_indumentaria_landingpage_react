@@ -23,6 +23,6 @@ export default function Home() {
       {/* Pricing */}
 
       {/* Agregar Numero de Telefono */}
-      <WhatsAppIcon phoneNumber="5491156379430" />
+      <WhatsAppIcon phoneNumber="541156379430" />
     </>
     )}
