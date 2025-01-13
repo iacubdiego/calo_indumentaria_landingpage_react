@@ -17,7 +17,6 @@ export default function Indumentaria() {
    <div className="container mx-auto ">
     <div className="relative p-4 grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
   
-    // Camisa
     <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
         <h2 className="text-4xl font-bold mb-4">Indumentaria</h2>
         <p className="mb-4">
@@ -58,7 +57,6 @@ export default function Indumentaria() {
         />
       </div>
             
-// Pantalon
     <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
         <h2 className="text-4xl font-bold mb-4">Indumentaria</h2>
         <p className="mb-4">
