@@ -17,8 +17,7 @@ export default function Calzado() {
     <div className="col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
         <h2 className="text-4xl font-bold mb-4">Botas y Zapatos para el trabajo</h2>
         <p className="mb-4">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.      Lorem ipsum dolor sit amet consectetur, adipisicing elit.      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Botas de PVC con punta de acero de la marca Proforce        
         </p>
       </div>  
       
