@@ -1,9 +1,9 @@
 import React from 'react';
 
-const WhatsAppIcon = ({ 5491156379430 }) => {
+const WhatsAppIcon = ({ phoneNumber }) => {
   return (
     <a
-      href={`https://api.whatsapp.com/send?phone=${5491156379430}`}
+      href={`https://api.whatsapp.com/send?phone=${phoneNumber}`}
       target="_blank"
       rel="noopener noreferrer"
     >
