@@ -21,15 +21,17 @@ export default function Seguridad() {
 
   <div className="relative p-4 grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
 
-  <div className="w-full flex flex-col justify-center p-4">
+  <div className="p-4 m-4">
     <h2 className="text-4xl font-bold mb-4">Guantes</h2>
     <p className="mb-4">
     Guantes de seguridad en descarne con refuerzo palmar.
     Guantes de seguridad multiflex nylon Pu negros.
     </p>
   </div>  
-      
-  <div className="col-span-4 lg:col-span-5 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+  <div className="col-span-2 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
       className="object-cover h-60 w-full md:rounded-l-lg"
       src={guantes1}
@@ -37,13 +39,17 @@ export default function Seguridad() {
     />
   </div>
 
-  <div className="col-span-4 lg:col-span-7 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="col-span-1 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
       className="object-cover h-60 w-full md:rounded-l-lg"
       src={guantes2}
       alt="Imagen"
     />
-  </div>    <div className="w-3/4 mx-14 mt-4 max-w-screen-xl col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
+  </div>
+  
+  </div>
+        
+  <div className="w-3/4 mx-14 mt-4 max-w-screen-xl col-span-4 lg:col-span-7 flex flex-col justify-center p-4">
         <h2 className="text-4xl font-bold mb-4">Protectores Auditivos</h2>
         <p className="mb-4">
         Diferentes Modelos.
