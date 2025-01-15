@@ -17,7 +17,7 @@ export default function Seguridad() {
   return (
   <>
 <div className="container mx-auto">
-  <h2 className="p-4 mx-auto col-span-4 md:col-span-8 lg:col-span-12 text-6xl font-bold mb-4">ELEMENTOS DE SEGURIDAD</h2>
+  <h2 className="p-4 mx-auto col-span-4 md:col-span-8 lg:col-span-12 text-6xl font-bold m-4">ELEMENTOS DE SEGURIDAD</h2>
 
   <div className="relative p-4 grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
 
@@ -31,7 +31,7 @@ export default function Seguridad() {
   
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
-      className="object-cover h-auto w-full md:rounded-l-lg"
+      className="object-cover h-[24rem] w-full md:rounded-l-lg"
       src={guantes1}
       alt="Imagen"
     />
@@ -39,7 +39,7 @@ export default function Seguridad() {
 
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
-      className="object-cover h-auto w-full md:rounded-l-lg"
+      className="object-cover h-[24rem] w-full md:rounded-l-lg"
       src={guantes2}
       alt="Imagen"
     />
@@ -54,14 +54,14 @@ export default function Seguridad() {
           
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-auto w-full md:rounded-l-lg"
+          className="object-cover h-[24rem] w-full md:rounded-l-lg"
           src={audifono1}
           alt="Imagen"
         />
       </div>
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-auto w-full md:rounded-l-lg"
+          className="h-[24rem] w-full md:rounded-l-lg"
           src={audifono2}
           alt="Imagen"
         />
@@ -76,21 +76,21 @@ export default function Seguridad() {
           
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-auto w-full md:rounded-l-lg"
+          className="object-cover h-[24rem] w-full md:rounded-l-lg"
           src={lentes1}
           alt="Imagen"
         />
       </div>
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-auto w-full md:rounded-l-lg"
+          className="object-cover h-[24rem] w-full md:rounded-l-lg"
           src={lentes2}
           alt="Imagen"
         />
       </div>
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-auto w-full md:rounded-l-lg"
+          className="object-cover h-[24rem] w-full md:rounded-l-lg"
           src={lentes3}
           alt="Imagen"
         />
@@ -105,7 +105,7 @@ export default function Seguridad() {
           
       <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-auto w-full md:rounded-l-lg"
+          className="object-cover h-[24rem] w-full md:rounded-l-lg"
           src={faja1}
           alt="Imagen"
         />
