@@ -31,7 +31,7 @@ export default function Seguridad() {
   
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
-      className="object-cover h-80 w-full md:rounded-l-lg"
+      className="object-cover h-auto w-full md:rounded-l-lg"
       src={guantes1}
       alt="Imagen"
     />
@@ -39,7 +39,7 @@ export default function Seguridad() {
 
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
-      className="object-cover h-80 w-full md:rounded-l-lg"
+      className="object-cover h-auto w-full md:rounded-l-lg"
       src={guantes2}
       alt="Imagen"
     />
@@ -54,14 +54,14 @@ export default function Seguridad() {
           
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-96 w-full md:rounded-l-lg"
+          className="object-cover h-auto w-full md:rounded-l-lg"
           src={audifono1}
           alt="Imagen"
         />
       </div>
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-96 w-full md:rounded-l-lg"
+          className="object-cover h-auto w-full md:rounded-l-lg"
           src={audifono2}
           alt="Imagen"
         />
@@ -76,21 +76,21 @@ export default function Seguridad() {
           
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-80 w-full md:rounded-l-lg"
+          className="object-cover h-auto w-full md:rounded-l-lg"
           src={lentes1}
           alt="Imagen"
         />
       </div>
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-80 w-full md:rounded-l-lg"
+          className="object-cover h-auto w-full md:rounded-l-lg"
           src={lentes2}
           alt="Imagen"
         />
       </div>
   <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-80 w-full md:rounded-l-lg"
+          className="object-cover h-auto w-full md:rounded-l-lg"
           src={lentes3}
           alt="Imagen"
         />
