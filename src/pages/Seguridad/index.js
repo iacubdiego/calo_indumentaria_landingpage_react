@@ -29,17 +29,17 @@ export default function Seguridad() {
     </p>
   </div>  
   
-  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
-      className="object-cover h-[24rem] w-full transform scale-90 md:rounded-l-lg"
+      className="object-contain w-full h-full"
       src={guantes1}
       alt="Imagen"
     />
   </div>
 
-  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
     <img
-      className="object-cover h-[24rem] w-full transform scale-90 md:rounded-l-lg"
+      className="object-contain w-full h-full"
       src={guantes2}
       alt="Imagen"
     />
@@ -74,23 +74,23 @@ export default function Seguridad() {
         </p>
       </div>  
           
-  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-[24rem] w-full md:rounded-l-lg"
+          className="object-contain w-full h-full"
           src={lentes1}
           alt="Imagen"
         />
       </div>
-  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-[24rem] w-full md:rounded-l-lg"
+          className="object-contain w-full h-full"
           src={lentes2}
           alt="Imagen"
         />
       </div>
-  <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+  <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-[24rem] w-full md:rounded-l-lg"
+          className="object-contain w-full h-full"
           src={lentes3}
           alt="Imagen"
         />
@@ -103,9 +103,9 @@ export default function Seguridad() {
         </p>
       </div>  
           
-      <div className="col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
+      <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
         <img
-          className="object-cover h-[24rem] w-full md:rounded-l-lg"
+          className="object-contain w-full h-full"
           src={faja1}
           alt="Imagen"
         />
