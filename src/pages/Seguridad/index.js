@@ -115,7 +115,7 @@ export default function Seguridad() {
     </div>
   </div>  
   {/* Agregar Numero de Telefono */}
-  <WhatsAppIcon />
+  <WhatsAppIcon phoneNumber="541156379430"/>
   </>
   );
 }
