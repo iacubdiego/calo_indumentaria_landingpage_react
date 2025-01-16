@@ -70,13 +70,13 @@ export default function Indumentaria() {
 
           <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
             <img className="object-contain w-full h-full"
-              src={pantalonazulino}
+              src={camisamarino}
               alt="Imagen"
             />
           </div>
           <div className="relative w-full h-[24rem] col-span-4 lg:col-span-6 bg-gradient-to-r from-slate-200 to-slate-50 p-4 rounded-lg shadow-lg">
             <img className="object-contain w-full h-full"
-              src={pantaloncolores}
+              src={pantalonbeige}
               alt="Imagen"
             />
           </div>            
