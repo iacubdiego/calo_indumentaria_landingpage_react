@@ -14,10 +14,10 @@ import pantalonmarino from "../../images/pantalon clasico marino frente.jpg";
 export default function Indumentaria() {
   return (
     <>
-     <div className="container mx-auto ">
-        <h2 className="p-4 mx-auto col-span-4 md:col-span-8 lg:col-span-12 text-4xl font-bold m-4">INDUMENTARIA</h2>
+     <div className="container mx-auto w-full overflow-hidden">
+        <h2 className="p-2 mx-auto col-span-4 md:col-span-8 lg:col-span-12 text-4xl font-bold mt-4">INDUMENTARIA</h2>
 
-        <div className="relative p-4 grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
+        <div className="relative p-2 grid grid-cols-4 gap-2 md:grid-cols-8 lg:grid-cols-12">
     
           <div className="col-span-4 md:col-span-8 lg:col-span-12 p-4 m-4">
             <h2 className="text-4xl font-bold mb-4">CAMISA DE GABARDINA</h2>
