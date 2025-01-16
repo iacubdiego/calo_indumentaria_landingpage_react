@@ -58,7 +58,7 @@ export default function Calzado() {
   </div>  
 
   {/* Agregar Numero de Telefono */}
-  <WhatsAppIcon phoneNumber="NUMERO_DE_TELEFONO" />
+  <WhatsAppIcon phoneNumber="541156379430" />
 
 </>
   );
