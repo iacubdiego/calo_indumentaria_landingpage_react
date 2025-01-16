@@ -82,9 +82,8 @@ export default function Indumentaria() {
           </div>            
       </div>
     </div>  
-  {/* Agregar Numero de Telefono 
-  <WhatsAppIcon phoneNumber="541156379430" />
-  */}
+  {/* Agregar Numero de Telefono */}
+  <WhatsAppIcon phoneNumber="541156379430" />  
   </>
   );
 }
