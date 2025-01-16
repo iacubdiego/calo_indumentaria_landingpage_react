@@ -1,5 +1,6 @@
 import React from 'react';
 
+const phoneNumber = "541156379430"
 const WhatsAppIcon = ({ phoneNumber }) => {
   return (
     <a
