@@ -38,9 +38,8 @@ const Nosotros = () => {
             </div>
           </div>
           {/*      <!-- End Nuestra Misión --> */}
-      </div>
     
-          <div className='flex flex-wrap w-screen'>
+      <div className='flex flex-wrap w-screen'>
 
         {/* <!-- Nuestros Valore --> */}
         <div className='w-full md:w-1/2 p-2'>
@@ -80,6 +79,7 @@ const Nosotros = () => {
         </div>
 
       <WhatsAppIcon phoneNumber="541156379430" />
+    </div>
   </>
   )
 }
